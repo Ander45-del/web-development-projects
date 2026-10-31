@@ -1,0 +1,167 @@
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Desarrollo Web Profesional</title>
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            background: #0b0b0f;
+            color: white;
+        }
+
+        header {
+            padding: 25px 8%;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            border-bottom: 1px solid #25252c;
+        }
+
+        .logo {
+            font-size: 22px;
+            font-weight: bold;
+            color: #a78bfa;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin-left: 25px;
+        }
+
+        .hero {
+            min-height: 80vh;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            padding: 60px 10%;
+        }
+
+        .tag {
+            color: #a78bfa;
+            margin-bottom: 20px;
+        }
+
+        h1 {
+            font-size: clamp(40px, 7vw, 75px);
+            max-width: 800px;
+            line-height: 1.1;
+        }
+
+        h1 span {
+            color: #a78bfa;
+        }
+
+        .description {
+            max-width: 550px;
+            color: #b5b5c2;
+            line-height: 1.8;
+            margin: 25px 0;
+        }
+
+        .button {
+            display: inline-block;
+            background: #a78bfa;
+            color: #0b0b0f;
+            padding: 15px 25px;
+            border-radius: 8px;
+            text-decoration: none;
+            font-weight: bold;
+            width: fit-content;
+        }
+
+        .services {
+            padding: 60px 10%;
+            background: #111116;
+        }
+
+        .services h2 {
+            font-size: 35px;
+            margin-bottom: 30px;
+        }
+
+        .service {
+            border: 1px solid #292933;
+            padding: 25px;
+            border-radius: 12px;
+            margin-bottom: 15px;
+        }
+
+        .service h3 {
+            color: #a78bfa;
+            margin-bottom: 10px;
+        }
+
+        footer {
+            padding: 30px;
+            text-align: center;
+            color: #888;
+        }
+    </style>
+</head>
+
+<body>
+
+    <header>
+        <div class="logo">WEB.DEV</div>
+
+        <nav>
+            <a href="#inicio">Inicio</a>
+            <a href="#servicios">Servicios</a>
+        </nav>
+    </header>
+
+    <section class="hero" id="inicio">
+        <p class="tag">DESARROLLO WEB PROFESIONAL</p>
+
+        <h1>
+            Tu negocio merece
+            <span>una gran web.</span>
+        </h1>
+
+        <p class="description">
+            Desarrollo páginas web modernas, atractivas y funcionales
+            para negocios, emprendimientos y marcas que quieren
+            destacar en internet.
+        </p>
+
+        <a class="button" href="#servicios">
+            Descubre mis servicios →
+        </a>
+    </section>
+
+    <section class="services" id="servicios">
+        <h2>¿Qué puedo desarrollar?</h2>
+
+        <div class="service">
+            <h3>Páginas web para negocios</h3>
+            <p>Presenta tu negocio de manera profesional en internet.</p>
+        </div>
+
+        <div class="service">
+            <h3>Landing pages</h3>
+            <p>Páginas diseñadas para presentar productos y servicios.</p>
+        </div>
+
+        <div class="service">
+            <h3>Diseño adaptable</h3>
+            <p>Experiencias que funcionan en computadoras y celulares.</p>
+        </div>
+    </section>
+
+    <footer>
+        © 2026 WEB.DEV — Desarrollo Web
+    </footer>
+
+</body>
+</html>
